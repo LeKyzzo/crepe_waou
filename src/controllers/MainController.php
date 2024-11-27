@@ -14,6 +14,37 @@ class MainController
         $this->render('about');
     }
 
+    // Page "Cart"
+    public function cart()
+    {
+        $this->render('cart');
+    }
+
+    // Page "Login"
+    public function catalog()
+    {
+        $this->render('catalog');
+    }
+
+    // Page "Login"
+    public function login()
+    {
+        $this->render('login');
+    }
+
+    // Page "Product"
+    public function product()
+    {
+        $this->render('product');
+    }
+
+    // Page "Register"
+    public function register()
+    {
+        $this->render('register');
+    }
+
+
     // Page 404
     public function notFound()
     {
